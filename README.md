@@ -1,0 +1,2 @@
+# Blacklist
+Batch Query Blacklist
