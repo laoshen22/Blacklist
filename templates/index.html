@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>查询HTS编码黑名单</h1>
+    </header>
+    <h1>上传HTS文件</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    <main>文件要求：xlsx格式，变量名HTS，数值10位连续数字</main>
+    <footer>
+        <p>&copy; 2024 Mirages International</p>
+    </footer>
+</body>
+</html>
+
+
